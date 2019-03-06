@@ -3,7 +3,7 @@
 ## Structure
 It is a really small project, it uses **dart** as its language.
 
-The *server* dirctory contains an aqueduct project. It runs as a server, handle http requests, route them to different *controller*. 
+The *server* dirctory contains an aqueduct project. It runs as a server, handle http requests, route them to different *controllers*. 
 
 The *client* dirctory contains an angulardart project. For now, it host ui interactions and so on.
 
@@ -23,7 +23,7 @@ dart ./bin/main.dart
 ```
 
 Client Project Part: get into client dir
-```
+```bash
 # get dependencies
 pub get
 # if debug on local server, could use
@@ -38,7 +38,7 @@ pub run build_runner build -r -o web:build
 ## Initial Version
 
 Both server and client part offer handful empty project using:
-```
+```bash
 # angulardart part, should get into target dir
 stagehand web-angular
 # aqueduct part
