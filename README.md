@@ -5,9 +5,9 @@ Well, since I have no experience in web devlopment, at very beginning I thought 
 
 But I really like aqueduct and its structure, then I think, it's a well-formed route system, so I could use it to make dart web app in separate slices. What I mean is that, every page or component is a module with view and functions which can be compile to a structure that contains bone(html), stlye(css), actions(js), resources(assets etc.), since I'm really new to everything, then why don't I make every intact page a 'web app' and use aqueduct to control routeings or auth or database relavant thing.
 
-I think this made my work easier, but I lack experiences that I cannot see if it is a stupid idea. But at first edition, I will do it as this way. 
+I think this made my work easier, but I lack experiences that I cannot tell if it is a stupid idea. But at first edition, I will do it as this way. 
 
-And finnally, I made it work as it supposed to be today... in a degree.
+And finally, I made it work as it supposed to be today... in a degree.
 
 ## Structure
 It is a really small project, it uses **dart** as its language.
