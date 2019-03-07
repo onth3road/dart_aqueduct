@@ -15,3 +15,7 @@
 .text-label-inside {
     @include text-label-inside-style
 }
+
+.unit {
+    @include text-unit-style
+}

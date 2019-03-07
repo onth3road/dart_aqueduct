@@ -2,11 +2,26 @@
 @import url(https://fonts.googleapis.com/css?family=Material+Icons);
 
 body {
-  max-width: 600px;
   margin: 0 auto;
   padding: 5vw;
 }
 
+@font-face {
+  font-family: 'roboto-light';
+  /* this url refers to AFTER build script, 
+  * under the web dir, exists an ASSETS dir,
+  * which made me crazy... afterall, china cannot access google api
+  */
+  src: url('/assets/fonts/Roboto-Light.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/assets/fonts/Roboto-Regular.ttf') format("truetype");
+  font-weight: normal;
+}
+
 * {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Roboto;
 }
