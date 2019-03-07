@@ -1,0 +1,17 @@
+@import 'styles';
+
+.text-important {
+    @include text-important-style;
+}
+
+.text {
+    @include text-style;
+}
+
+.text-label {
+    @include text-label-style
+}
+
+.text-label-inside {
+    @include text-label-inside-style
+}

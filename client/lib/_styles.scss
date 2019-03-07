@@ -1,0 +1,48 @@
+
+$theme-color: #2196f3;
+$accent-color: #9575cd;
+
+$text-important-color: darken($theme-color, 31%);
+$text-label-color: lighten($theme-color, 29%);
+$text-inside-label-color: lighten($theme-color, 50%);
+$textt-color: $theme-color;
+    
+@font-face {
+    font-family: roboto-light;
+    src: url('/res/font/Roboto-Light.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url('/res/font/Roboto-Regular.ttf') format("truetype")
+}
+
+$text-size: 4vw;
+$text-important-size: 7vw;
+$text-label-size: 2vw;
+$text-inside-label: 2vw;
+
+@mixin text-important-style {
+    color: $text-important-color;
+    font-family: roboto-light;
+    font-size: $text-important-size;
+}
+
+@mixin text-style {
+    color: $textt-color;
+    font-family: 'roboto light';
+    font-size: $text-size;
+}
+
+@mixin text-label-style {
+    color: $text-label-color;
+    font-family: 'roboto';
+    font-size: $text-label-size;
+}
+
+@mixin text-label-inside-style {
+    color: $text-inside-label-color;
+    font-family: 'roboto';
+    font-size: $text-label-size;
+    background: $text-label-color;
+}
