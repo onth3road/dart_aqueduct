@@ -22,4 +22,3 @@ dev_dependencies:
   test: ^1.5.1
   # for scss support
   # a stackoverflow link https://stackoverflow.com/questions/50609938/use-scss-style-files-within-angulardart-5-and-dart-2
-  sass_builder: ^2.1.2

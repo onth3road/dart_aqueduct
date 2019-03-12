@@ -1,5 +1,5 @@
 import 'package:server/controllers/wechat_authorizer.dart';
-import 'package:server/controllers/wechat_controller.dart';
+import 'package:server/controllers/wechat_page_ctrl.dart';
 
 import 'server.dart';
 
@@ -20,9 +20,12 @@ class ServerChannel extends ApplicationChannel {
         return Response.ok({"key": "value"});
       });*/
 
-    router.route("/wechat/[:api]")
+    router.route("/wechat/general/[:api]")
       .link(() => WechatAuthorizer());
       //.link(() => WechatController());
+
+    router.route("/wechat/page/[:api]")
+      .link(() => WechatPageController());
 
     return router;
   }
